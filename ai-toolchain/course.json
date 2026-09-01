@@ -41,57 +41,86 @@
       "date": "2026-10-09",
       "title": "AI 工具選型與帳號準備",
       "focus": "選 1 個 LLM API/SDK、申請 access key，環境 smoke test 跑通",
-      "slide_link": "slides/class-00.md",
-      "lab_link": "labs/lab-00.md"
+      "lab_link": "labs/lab-00.md",
+      "overview_link": "00-course-overview.md",
+      "agenda_link": "01-course-agenda.md",
+      "slide_link": "slides/class-00-ai-tool-selection.pptx",
+      "content_link": "slides/class-00-content.md",
+      "lecture_link": "slides/class-00-lecture.md"
     },
     {
       "id": "C1",
       "date": "2026-10-13",
       "title": "Prompt 工程與 API 呼叫",
       "focus": "system/user/多輪；溫度/最大長；結構化輸出（JSON mode）",
-      "slide_link": "slides/class-01.md",
-      "lab_link": "labs/lab-01.md"
+      "lab_link": "labs/lab-01.md",
+      "overview_link": "00-course-overview.md",
+      "agenda_link": "01-course-agenda.md",
+      "slide_link": "slides/class-01-prompt-engineering.pptx",
+      "content_link": "slides/class-01-content.md",
+      "lecture_link": "slides/class-01-lecture.md"
     },
     {
       "id": "C2",
       "date": "2026-10-15",
       "title": "RAG 基礎",
       "focus": "文件切塊→embedding→向量庫→檢索→組 prompt；評估召回",
-      "slide_link": "slides/class-02.md",
-      "lab_link": "labs/lab-02.md"
+      "lab_link": "labs/lab-02.md",
+      "overview_link": "00-course-overview.md",
+      "agenda_link": "01-course-agenda.md",
+      "slide_link": "slides/class-02-rag-basics.pptx",
+      "content_link": "slides/class-02-content.md",
+      "lecture_link": "slides/class-02-lecture.md"
     },
     {
       "id": "C3",
       "date": "2026-10-20",
       "title": "Tool 呼叫",
       "focus": "function calling：定義 schema→LLM 輸出→本地執行→回吐",
-      "slide_link": "slides/class-03.md",
-      "lab_link": "labs/lab-03.md"
+      "lab_link": "labs/lab-03.md",
+      "overview_link": "00-course-overview.md",
+      "agenda_link": "01-course-agenda.md",
+      "slide_link": "slides/class-03-tool-calling.pptx",
+      "content_link": "slides/class-03-content.md",
+      "lecture_link": "slides/class-03-lecture.md"
     },
     {
       "id": "C4",
       "date": "2026-10-22",
       "title": "Agent 與多步推理",
       "focus": "ReAct 迴路；工具選擇；錯誤回傳與重試；停止條件",
-      "slide_link": "slides/class-04.md",
-      "lab_link": "labs/lab-04.md"
+      "lab_link": "labs/lab-04.md",
+      "overview_link": "00-course-overview.md",
+      "agenda_link": "01-course-agenda.md",
+      "slide_link": "slides/class-04-agent-react.pptx",
+      "content_link": "slides/class-04-content.md",
+      "lecture_link": "slides/class-04-lecture.md"
     },
     {
       "id": "C5",
       "date": "2026-10-27",
       "title": "評測與監控",
       "focus": "build 一組回歸集（≥20 案例）；跑分數＋成本＋latency 三軸",
-      "slide_link": "slides/class-05.md",
-      "lab_link": "labs/lab-05.md"
+      "lab_link": "labs/lab-05.md",
+      "overview_link": "00-course-overview.md",
+      "agenda_link": "01-course-agenda.md",
+      "slide_link": "slides/class-05-evaluation.pptx",
+      "content_link": "slides/class-05-content.md",
+      "lecture_link": "slides/class-05-lecture.md"
     },
     {
       "id": "C6",
       "date": "2026-10-29",
       "title": "整合上線與結案",
       "focus": "組完整應用（RAG+Tool+Agent）；部署；交付報告；結案",
-      "slide_link": "slides/class-06.md",
-      "lab_link": "labs/lab-06.md"
+      "lab_link": "labs/lab-06.md",
+      "overview_link": "00-course-overview.md",
+      "agenda_link": "01-course-agenda.md",
+      "slide_link": "slides/class-06-integration-deploy.pptx",
+      "content_link": "slides/class-06-content.md",
+      "lecture_link": "slides/class-06-lecture.md"
     }
   ],
-  "goal": "學員能獨立搭建並交付「RAG＋工具呼叫＋Agent」的生產級 AI 應用（選型→提示→RAG→Tool→Agent→評測→上線）。"
+  "goal": "學員能獨立搭建並交付「RAG＋工具呼叫＋Agent」的生產級 AI 應用（選型→提示→RAG→Tool→Agent→評測→上線）。",
+  "repo_root": "https://github.com/subirdkimo/training-courses/tree/main/ai-toolchain"
 }
