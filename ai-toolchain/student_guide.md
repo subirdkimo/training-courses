@@ -32,6 +32,26 @@
 
 ---
 
+## 課程資料（GitHub 下載）
+
+投影片（.pptx 直接下載，滑鼠右鍵另存）：
+
+| 卡 | 投影片 |
+|---|---|
+| C0 | [class-00-ai-tool-selection](https://raw.githubusercontent.com/subirdkimo/training-courses/main/ai-toolchain/slides/class-00-ai-tool-selection.pptx) |
+| C1 | [class-01-prompt-engineering](https://raw.githubusercontent.com/subirdkimo/training-courses/main/ai-toolchain/slides/class-01-prompt-engineering.pptx) |
+| C2 | [class-02-rag-basics](https://raw.githubusercontent.com/subirdkimo/training-courses/main/ai-toolchain/slides/class-02-rag-basics.pptx) |
+| C3 | [class-03-tool-calling](https://raw.githubusercontent.com/subirdkimo/training-courses/main/ai-toolchain/slides/class-03-tool-calling.pptx) |
+| C4 | [class-04-agent-react](https://raw.githubusercontent.com/subirdkimo/training-courses/main/ai-toolchain/slides/class-04-agent-react.pptx) |
+| C5 | [class-05-evaluation](https://raw.githubusercontent.com/subirdkimo/training-courses/main/ai-toolchain/slides/class-05-evaluation.pptx) |
+| C6 | [class-06-integration-deploy](https://raw.githubusercontent.com/subirdkimo/training-courses/main/ai-toolchain/slides/class-06-integration-deploy.pptx) |
+
+Lab 手冊＋講義＋課程總覽／行程：[training-courses/ai-toolchain](https://github.com/subirdkimo/training-courses/tree/main/ai-toolchain)
+
+> 所有資料以 GitHub 為唯一真源，連結永久有效；投影片＝raw 直接下載、md 文件＝blob 瀏覽器排版。
+
+---
+
 ## 每卡標準動作（同一節奏）
 
 1. **上課**：週一/三/五 17:30（DAP 邀請內有投影片＋Lab 連結）。
