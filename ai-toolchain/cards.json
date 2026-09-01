@@ -1,0 +1,12 @@
+{
+  "_note": "AI 工具鏈訓練 7 卡共用模板（C0–C6）。由 training-course-pm 生成；卡名刻意互不含 2 字共有序列以通過 mtf_core.overlap_pairs。",
+  "cards": [
+    { "id": "C0", "name": "選型備料", "kw": "(?:C0|選型|備料|帳號|API key|API key 準備)[^\\n]{0,24}(?:完成|已備|就緒|OK)|完成[^\\n]{0,16}(?:選型|備料)", "need": { "number": false, "date": false, "evidence": true } },
+    { "id": "C1", "name": "提示工程", "kw": "(?:C1|提示|prompt|多輪|結構化輸出)[^\\n]{0,24}(?:完成|已交|繳交)|完成[^\\n]{0,16}(?:C1|提示|prompt)", "need": { "number": false, "date": true, "evidence": true } },
+    { "id": "C2", "name": "檢索增強", "kw": "(?:C2|RAG|檢索|embedding|向量庫|切塊)[^\\n]{0,24}(?:完成|已交|繳交)|完成[^\\n]{0,16}(?:C2|RAG|檢索)", "need": { "number": false, "date": true, "evidence": true } },
+    { "id": "C3", "name": "工具調用", "kw": "(?:C3|工具|function|schema|調用)[^\\n]{0,24}(?:完成|已交|繳交)|完成[^\\n]{0,16}(?:C3|工具|function)", "need": { "number": false, "date": true, "evidence": true } },
+    { "id": "C4", "name": "自主代理", "kw": "(?:C4|代理|agent|ReAct|多步)[^\\n]{0,24}(?:完成|已交|繳交)|完成[^\\n]{0,16}(?:C4|代理|agent)", "need": { "number": false, "date": true, "evidence": true } },
+    { "id": "C5", "name": "評測監控", "kw": "(?:C5|評測|回歸|成本|latency|監控)[^\\n]{0,24}(?:完成|已交|繳交)|完成[^\\n]{0,16}(?:C5|評測|回歸)", "need": { "number": false, "date": true, "evidence": true } },
+    { "id": "C6", "name": "整合上線", "kw": "(?:C6|整合|上線|部署|結案)[^\\n]{0,24}(?:完成|已交|繳交)|完成[^\\n]{0,16}(?:C6|整合|上線)", "need": { "number": false, "date": true, "evidence": true } }
+  ]
+}
